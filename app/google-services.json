@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1066243171620",
+    "firebase_url": "https://politoproject-7198e.firebaseio.com",
+    "project_id": "politoproject-7198e",
+    "storage_bucket": "politoproject-7198e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066243171620:android:2e17a731ad7bf65e",
+        "android_client_info": {
+          "package_name": "com.example.jaumenartbaron.politoproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066243171620-1pql3csgl4mqjtmu8ehsatebefcns5iq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jaumenartbaron.politoproject",
+            "certificate_hash": "9e385623d51f91356a5178127b30555ce3effd31"
+          }
+        },
+        {
+          "client_id": "1066243171620-73gehieg04hsl6a9t1hms1ast50p03nq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHzR8dbmdmkuQCED_orjHly_yaBzZwS8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066243171620-73gehieg04hsl6a9t1hms1ast50p03nq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

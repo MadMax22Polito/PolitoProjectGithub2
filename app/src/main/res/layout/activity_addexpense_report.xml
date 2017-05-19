@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaumenartbaron.politoproject.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/textViewGroupSelected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GroupSelected"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewNameExpense"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <EditText
+                android:id="@+id/editTextNameExpense"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textViewCost"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="Cost"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+            <EditText
+                android:id="@+id/editTextCost"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewMembers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Members"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+            <ListView
+
+                android:id="@+id/listViewMembers"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="3">
+
+            </ListView>
+
+
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonAddExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Expense" />
+
+        <ListView
+            android:id="@+id/listViewExpense"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+
+        </ListView>
+
+    </LinearLayout>
+</RelativeLayout>
